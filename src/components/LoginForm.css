@@ -1,0 +1,44 @@
+/* src/components/LoginForm.css */
+.login-container {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 100px;
+    /* Sesuaikan dengan kebutuhan untuk menempatkan di tengah halaman */
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #333;
+}
+
+.login-container div {
+    margin-bottom: 10px;
+}
+
+.login-container label {
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    width: 91%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.login-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}

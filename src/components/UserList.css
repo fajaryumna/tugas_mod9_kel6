@@ -1,0 +1,89 @@
+/* src/components/UserList.css */
+.user-list-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    /* Pusatkan teks */
+
+}
+
+.user-list-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.user-list-header button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-list-header .btn-add {
+    background-color: #28a745;
+    /* Hijau */
+    color: white;
+}
+
+.user-list-container .btn-update {
+    background-color: #ffc107;
+    /* Kuning */
+    color: white;
+    margin-right: 5px;
+}
+
+.user-list-container .btn-delete {
+    background-color: #dc3545;
+    /* Merah */
+    color: white;
+}
+
+.user-list-header .btn-logout {
+    background-color: #dc3545;
+    /* Merah */
+    color: white;
+}
+
+.user-list-header button:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+button:hover {
+    background-color: #0056b3;
+}
